@@ -1,0 +1,1 @@
+Place each supplied recording folder directly here. Its root should contain one original WAV and one transcript XLSX. Old nested chunk folders can stay; they are ignored. Run `python -m kathai_toda run` from the repository root. Outputs are written under `data/output/<foldername>/`.

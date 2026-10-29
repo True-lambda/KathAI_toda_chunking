@@ -1,0 +1,3 @@
+# Install torch/torchaudio separately using the CPU or CUDA command in README.
+-e .
+silero-vad==6.0.0
