@@ -1,6 +1,6 @@
 # Kathai Toda alignment pipeline
 
-Uses: Meta's Massively Multilingual Speech (MMS), Connectionist Temporal Classification (CTC) Viterbi backtracking algo, Silero VAD for the overlap metric.
+This uses Meta's Massively Multilingual Speech (MMS) alignment, Connectionist Temporal Classification (CTC) Viterbi backtracking algo, Silero VAD for the overlap metric.
 
 Put a recording folder under `data/`, run one command, and find its timestamps and audio clips under `data/output/<foldername>/`. Repeat with the next folder.
 
@@ -18,7 +18,7 @@ py -3.11 -m venv .venv
 ```
 
 ## 2. folders
-Place one folder in data/
+Place the folder in data/
 
 ## 3. Run
 
@@ -32,7 +32,7 @@ Windows:
 `inspect` reads the workbook and prints the detected rows, coarse windows, and existing times without loading models. `run` processes every immediate recording folder under `data/` except `output/`. For a single folder:
 
 ```bash
-python -m kathai_toda run --folder "06-07-2026 EMRS ENGLISH TODA RECAP"
+python -m kathai_toda run --folder "<foldername>"
 ```
 
 After a run, you can move that source folder out, put the next folder in `data/`, and run the same command. Old outputs remain under their own names. Unchanged inputs with complete outputs are skipped on rerun. Changed inputs or corrections require `--overwrite`, which replaces **only that recording's output folder** after a successful staged run.
