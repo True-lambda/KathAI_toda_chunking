@@ -1,0 +1,7 @@
+﻿chunk_id,path,start_time,end_time,duration,label
+vad_0001,vad_chunks/vad_0001.wav,0.288,20.064,19.776,unlabelled_speech_activity
+vad_0002,vad_chunks/vad_0002.wav,20.448,21.312,0.8640000000000008,unlabelled_speech_activity
+vad_0003,vad_chunks/vad_0003.wav,21.728,31.488,9.759999999999998,unlabelled_speech_activity
+vad_0004,vad_chunks/vad_0004.wav,31.84,33.952,2.1119999999999983,unlabelled_speech_activity
+vad_0005,vad_chunks/vad_0005.wav,34.336,56.48,22.144,unlabelled_speech_activity
+vad_0006,vad_chunks/vad_0006.wav,56.768,65.6,8.831999999999994,unlabelled_speech_activity
