@@ -1,5 +1,7 @@
 # Kathai Toda alignment pipeline
 
+Uses: Meta's Massively Multilingual Speech (MMS), Connectionist Temporal Classification (CTC) Viterbi backtracking algo, Silero VAD for the overlap metric.
+
 Put a recording folder under `data/`, run one command, and find its timestamps and audio clips under `data/output/<foldername>/`. Repeat with the next folder.
 
 ## 1. Install
